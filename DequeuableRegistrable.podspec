@@ -20,7 +20,7 @@ DequeuableRegistrable is a couple of protocol extensions that allows registering
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Fernando Ortiz' => 'ortizfernandomartin@gmail.com' }
   s.source           = { :git => 'https://github.com/fmo91/DequeuableRegistrable.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://www.linkedin.com/in/fernando-mart%C3%ADn-ortiz-77649167'
+  # s.social_media_url = 'https://www.linkedin.com/in/fernando-mart%C3%ADn-ortiz-77649167'
 
   s.ios.deployment_target = '8.0'
 
