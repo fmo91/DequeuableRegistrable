@@ -1,0 +1,16 @@
+PODS:
+  - DequeuableRegistrable (0.1.0)
+
+DEPENDENCIES:
+  - DequeuableRegistrable (from `../`)
+
+EXTERNAL SOURCES:
+  DequeuableRegistrable:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DequeuableRegistrable: 28a85cc0f31b3990866108b433778ba021620ef5
+
+PODFILE CHECKSUM: 22493f8062e11c49901d5a17d0ec699517ddf898
+
+COCOAPODS: 1.2.0.beta.3

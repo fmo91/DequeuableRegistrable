@@ -1,0 +1,6 @@
+framework module DequeuableRegistrable {
+  umbrella header "DequeuableRegistrable-umbrella.h"
+
+  export *
+  module * { export * }
+}

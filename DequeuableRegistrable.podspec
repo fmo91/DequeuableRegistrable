@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DequeuableRegistrable'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DequeuableRegistrable.'
+  s.summary          = 'Safe and convenient registering and dequeuing of UITableViewCells and UICollectionViewCells without Strings.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,15 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+DequeuableRegistrable is a couple of protocol extensions that allows registering and dequeuing UITableViewCells and UICollectionViewCells without using Strings and without doing any unsafe type casting.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/DequeuableRegistrable'
+  s.homepage         = 'https://github.com/fmo91/DequeuableRegistrable'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Fernando Ortiz' => 'ortizfernandomartin@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/DequeuableRegistrable.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/fmo91/DequeuableRegistrable.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://www.linkedin.com/in/fernando-mart%C3%ADn-ortiz-77649167'
 
   s.ios.deployment_target = '8.0'
 
