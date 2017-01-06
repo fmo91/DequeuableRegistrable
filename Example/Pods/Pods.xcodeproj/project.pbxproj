@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		189B42C11E1F21C100044DD9 /* Dequeuable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B42BE1E1F21C100044DD9 /* Dequeuable.swift */; };
+		189B42C21E1F21C100044DD9 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B42BF1E1F21C100044DD9 /* Identifiable.swift */; };
+		189B42C31E1F21C100044DD9 /* Registrable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B42C01E1F21C100044DD9 /* Registrable.swift */; };
 		3BE2CDECCE19045445A828F841F7D21B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		475F9653913237268438B77ED4719497 /* DequeuableRegistrable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF40587B3D9EB598A44E0CFC14C2A62 /* DequeuableRegistrable-dummy.m */; };
 		5A30B33177398A91554A3E01A3B31B96 /* Pods-DequeuableRegistrable_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED14756829B8E78F19F4DD4CC3C496B /* Pods-DequeuableRegistrable_Example-dummy.m */; };
 		694F79C50F721E711CF3B483F0B34204 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		6EAC59F7C841F8E04428293937AB2240 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4775C66CC02F95D440EC1B28C6A44BD8 /* ReplaceMe.swift */; };
 		7B78BC7F469AE93833305BC3490CF11F /* DequeuableRegistrable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A886C9BA7EFD3C499074EB2BACAA026 /* DequeuableRegistrable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C63BCDDBBE80421E44506909EE000C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		9784557A8CA2A59C43D7A8DE5AD66D67 /* Pods-DequeuableRegistrable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E9FBD700EF359913215CF3BA5296AD3 /* Pods-DequeuableRegistrable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -34,13 +36,15 @@
 		02478F0A33B0E59335DBCBD6A7DC7FCC /* Pods-DequeuableRegistrable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DequeuableRegistrable_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		05CA5267940020C0A30EF27943A9588B /* DequeuableRegistrable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DequeuableRegistrable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11347F97C3C8EDE66C57C7836C76574B /* Pods-DequeuableRegistrable_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DequeuableRegistrable_Tests-resources.sh"; sourceTree = "<group>"; };
+		189B42BE1E1F21C100044DD9 /* Dequeuable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dequeuable.swift; sourceTree = "<group>"; };
+		189B42BF1E1F21C100044DD9 /* Identifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
+		189B42C01E1F21C100044DD9 /* Registrable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Registrable.swift; sourceTree = "<group>"; };
 		19E809BD79EA862EE8E3557329BA858E /* Pods-DequeuableRegistrable_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DequeuableRegistrable_Example.modulemap"; sourceTree = "<group>"; };
 		1A886C9BA7EFD3C499074EB2BACAA026 /* DequeuableRegistrable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DequeuableRegistrable-umbrella.h"; sourceTree = "<group>"; };
 		27DC15DDE8C797B9B88695D66F16387E /* Pods-DequeuableRegistrable_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DequeuableRegistrable_Example-resources.sh"; sourceTree = "<group>"; };
 		3D1A4CBEE7251BCB8636126C7DC85EDD /* Pods_DequeuableRegistrable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DequeuableRegistrable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E30EDDAC6E604762F8D2BF733FD08B1 /* Pods-DequeuableRegistrable_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DequeuableRegistrable_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		40987AA07555945BE02BA74F95A7D15D /* DequeuableRegistrable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DequeuableRegistrable.xcconfig; sourceTree = "<group>"; };
-		4775C66CC02F95D440EC1B28C6A44BD8 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		5E9FBD700EF359913215CF3BA5296AD3 /* Pods-DequeuableRegistrable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DequeuableRegistrable_Tests-umbrella.h"; sourceTree = "<group>"; };
 		623B0C0A0D7738FB87D88152538CE059 /* Pods-DequeuableRegistrable_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DequeuableRegistrable_Example-umbrella.h"; sourceTree = "<group>"; };
 		67AEB7ADA25E958134E4C86D733CDF64 /* Pods-DequeuableRegistrable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DequeuableRegistrable_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -209,7 +213,9 @@
 		B58D827DDA214165F4CA1A972E799173 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4775C66CC02F95D440EC1B28C6A44BD8 /* ReplaceMe.swift */,
+				189B42BE1E1F21C100044DD9 /* Dequeuable.swift */,
+				189B42BF1E1F21C100044DD9 /* Identifiable.swift */,
+				189B42C01E1F21C100044DD9 /* Registrable.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -345,8 +351,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189B42C31E1F21C100044DD9 /* Registrable.swift in Sources */,
+				189B42C11E1F21C100044DD9 /* Dequeuable.swift in Sources */,
+				189B42C21E1F21C100044DD9 /* Identifiable.swift in Sources */,
 				475F9653913237268438B77ED4719497 /* DequeuableRegistrable-dummy.m in Sources */,
-				6EAC59F7C841F8E04428293937AB2240 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 40987AA07555945BE02BA74F95A7D15D /* DequeuableRegistrable.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -451,6 +460,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 40987AA07555945BE02BA74F95A7D15D /* DequeuableRegistrable.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
