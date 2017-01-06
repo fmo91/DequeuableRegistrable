@@ -17,6 +17,7 @@
 		8A11703CB46D9A05178E587E66705992 /* Registrable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBB52B354A02A054782AE75F2B2FF6B /* Registrable.swift */; };
 		9784557A8CA2A59C43D7A8DE5AD66D67 /* Pods-DequeuableRegistrable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E9FBD700EF359913215CF3BA5296AD3 /* Pods-DequeuableRegistrable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E453014101061FD46DF4972EB0E6BFB /* Pods-DequeuableRegistrable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AEB7ADA25E958134E4C86D733CDF64 /* Pods-DequeuableRegistrable_Tests-dummy.m */; };
+		ED811A9E1E20223D00E92D03 /* CollectionViewReusableViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED811A9D1E20223D00E92D03 /* CollectionViewReusableViewType.swift */; };
 		F3C9A2C918D7C3507D7BBC489B8A75E6 /* Pods-DequeuableRegistrable_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 623B0C0A0D7738FB87D88152538CE059 /* Pods-DequeuableRegistrable_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7BF85CC9670990172E0A61B381A7CE1 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74C3F7FB4C9C8E30A07CE2063D7C2CE /* Identifiable.swift */; };
 /* End PBXBuildFile section */
@@ -34,31 +35,31 @@
 /* Begin PBXFileReference section */
 		002B44CF334366658051DE30C104C99B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02478F0A33B0E59335DBCBD6A7DC7FCC /* Pods-DequeuableRegistrable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DequeuableRegistrable_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		05CA5267940020C0A30EF27943A9588B /* DequeuableRegistrable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DequeuableRegistrable.framework; path = DequeuableRegistrable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05CA5267940020C0A30EF27943A9588B /* DequeuableRegistrable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DequeuableRegistrable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11347F97C3C8EDE66C57C7836C76574B /* Pods-DequeuableRegistrable_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DequeuableRegistrable_Tests-resources.sh"; sourceTree = "<group>"; };
-		19E809BD79EA862EE8E3557329BA858E /* Pods-DequeuableRegistrable_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DequeuableRegistrable_Example.modulemap"; sourceTree = "<group>"; };
+		19E809BD79EA862EE8E3557329BA858E /* Pods-DequeuableRegistrable_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DequeuableRegistrable_Example.modulemap"; sourceTree = "<group>"; };
 		1A886C9BA7EFD3C499074EB2BACAA026 /* DequeuableRegistrable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DequeuableRegistrable-umbrella.h"; sourceTree = "<group>"; };
 		27DC15DDE8C797B9B88695D66F16387E /* Pods-DequeuableRegistrable_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DequeuableRegistrable_Example-resources.sh"; sourceTree = "<group>"; };
-		3D1A4CBEE7251BCB8636126C7DC85EDD /* Pods_DequeuableRegistrable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DequeuableRegistrable_Tests.framework; path = "Pods-DequeuableRegistrable_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1A4CBEE7251BCB8636126C7DC85EDD /* Pods_DequeuableRegistrable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DequeuableRegistrable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E30EDDAC6E604762F8D2BF733FD08B1 /* Pods-DequeuableRegistrable_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DequeuableRegistrable_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		40987AA07555945BE02BA74F95A7D15D /* DequeuableRegistrable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DequeuableRegistrable.xcconfig; sourceTree = "<group>"; };
 		5E9FBD700EF359913215CF3BA5296AD3 /* Pods-DequeuableRegistrable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DequeuableRegistrable_Tests-umbrella.h"; sourceTree = "<group>"; };
 		623B0C0A0D7738FB87D88152538CE059 /* Pods-DequeuableRegistrable_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DequeuableRegistrable_Example-umbrella.h"; sourceTree = "<group>"; };
 		67AEB7ADA25E958134E4C86D733CDF64 /* Pods-DequeuableRegistrable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DequeuableRegistrable_Tests-dummy.m"; sourceTree = "<group>"; };
 		6971FB02DB2E018E7F21B637901F12DE /* Pods-DequeuableRegistrable_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DequeuableRegistrable_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		703B530D04B15FE3FCE406BF3393C5ED /* Pods_DequeuableRegistrable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DequeuableRegistrable_Example.framework; path = "Pods-DequeuableRegistrable_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		703B530D04B15FE3FCE406BF3393C5ED /* Pods_DequeuableRegistrable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DequeuableRegistrable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		734C61478EE9E2EC3D6CB12C94862B2F /* Pods-DequeuableRegistrable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DequeuableRegistrable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7DE362AEA1544F562E9F170B7EF043BF /* Pods-DequeuableRegistrable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DequeuableRegistrable_Tests.modulemap"; sourceTree = "<group>"; };
+		7DE362AEA1544F562E9F170B7EF043BF /* Pods-DequeuableRegistrable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DequeuableRegistrable_Tests.modulemap"; sourceTree = "<group>"; };
 		85872CA6F7BAA14C3374170D77CF3123 /* Pods-DequeuableRegistrable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DequeuableRegistrable_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8A4828A2CC5A2FB8F4399F0372329E98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BF40587B3D9EB598A44E0CFC14C2A62 /* DequeuableRegistrable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DequeuableRegistrable-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A90B08FFAF7A3FD382E26AC2FF17FDD /* Pods-DequeuableRegistrable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DequeuableRegistrable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9DE9712004F4F4B82D9C48A0C58B89DD /* DequeuableRegistrable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DequeuableRegistrable-prefix.pch"; sourceTree = "<group>"; };
 		9ED14756829B8E78F19F4DD4CC3C496B /* Pods-DequeuableRegistrable_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DequeuableRegistrable_Example-dummy.m"; sourceTree = "<group>"; };
 		A6EEAED07EB9876D9C8C69D782E578C9 /* Pods-DequeuableRegistrable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DequeuableRegistrable_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A7A3D1716E0A323E51412D583DDF0AD7 /* Dequeuable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Dequeuable.swift; sourceTree = "<group>"; };
-		AA41BA3F4806A562EDA6F1209EFC0E9C /* DequeuableRegistrable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DequeuableRegistrable.modulemap; sourceTree = "<group>"; };
+		AA41BA3F4806A562EDA6F1209EFC0E9C /* DequeuableRegistrable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DequeuableRegistrable.modulemap; sourceTree = "<group>"; };
 		B74C3F7FB4C9C8E30A07CE2063D7C2CE /* Identifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
 		BCBB52B354A02A054782AE75F2B2FF6B /* Registrable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Registrable.swift; sourceTree = "<group>"; };
 		BD856FAE67487EDC296F2A9403744F7E /* Pods-DequeuableRegistrable_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DequeuableRegistrable_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -66,6 +67,7 @@
 		C6A604C20540292F59DD466B84099F61 /* Pods-DequeuableRegistrable_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DequeuableRegistrable_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E0C971F1B74F116E2E1DE3137CA76B9B /* Pods-DequeuableRegistrable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DequeuableRegistrable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED811A9D1E20223D00E92D03 /* CollectionViewReusableViewType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewReusableViewType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +104,8 @@
 				A7A3D1716E0A323E51412D583DDF0AD7 /* Dequeuable.swift */,
 				B74C3F7FB4C9C8E30A07CE2063D7C2CE /* Identifiable.swift */,
 				BCBB52B354A02A054782AE75F2B2FF6B /* Registrable.swift */,
+				ED811A9D1E20223D00E92D03 /* CollectionViewReusableViewType.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -112,7 +114,6 @@
 			children = (
 				039608CA6873DF544BE2068AD15D83CB /* Classes */,
 			);
-			name = DequeuableRegistrable;
 			path = DequeuableRegistrable;
 			sourceTree = "<group>";
 		};
@@ -356,6 +357,7 @@
 				197B2DDEAB4AC76C604BEEED080F5B76 /* Dequeuable.swift in Sources */,
 				31F92A4FC3AB3EEDBFE345F777FCB810 /* DequeuableRegistrable-dummy.m in Sources */,
 				F7BF85CC9670990172E0A61B381A7CE1 /* Identifiable.swift in Sources */,
+				ED811A9E1E20223D00E92D03 /* CollectionViewReusableViewType.swift in Sources */,
 				8A11703CB46D9A05178E587E66705992 /* Registrable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

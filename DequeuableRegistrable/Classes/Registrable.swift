@@ -34,28 +34,11 @@ public extension Registrable where Self:UICollectionViewCell {
 }
 
 // MARK: - UICollectionReusableView -
-public enum CollectionViewReusableViewType {
-    case header, footer
-}
-
 public extension Registrable where Self:UICollectionReusableView {
     public static func register(in collectionView: UICollectionView, as type: CollectionViewReusableViewType) {
-        switch type {
-        case .header: registerAsHeader(in: collectionView)
-        case .footer: registerAsFooter(in: collectionView)
-        }
-    }
-    
-    private static func registerAsHeader(in collectionView: UICollectionView) {
         collectionView.register(nib,
-            forSupplementaryViewOfKind: UICollectionElementKindSectionHeader,
-            withReuseIdentifier: identifier
-        )
-    }
-    private static func registerAsFooter(in collectionView: UICollectionView) {
-        collectionView.register(nib,
-            forSupplementaryViewOfKind: UICollectionElementKindSectionFooter,
-            withReuseIdentifier: identifier
+            forSupplementaryViewOfKind  : type.value,
+            withReuseIdentifier         : identifier
         )
     }
 }

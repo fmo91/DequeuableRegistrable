@@ -23,3 +23,10 @@ public extension Dequeuable where Self:UICollectionViewCell {
         return collectionView.dequeueReusableCell(withReuseIdentifier: identifier, for: indexPath) as! Self
     }
 }
+
+// MARK: - UICollectionReusableView -
+public extension Dequeuable where Self:UICollectionReusableView {
+    public static func dequeue(from collectionView: UICollectionView, for indexPath: IndexPath, as type: CollectionViewReusableViewType) -> Self {
+        return collectionView.dequeueReusableSupplementaryView(ofKind: type.value, withReuseIdentifier: identifier, for: indexPath) as! Self
+    }
+}
