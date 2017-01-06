@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DequeuableRegistrable_Example' do
+  pod 'DequeuableRegistrable', :path => '../'
+
+  target 'DequeuableRegistrable_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
