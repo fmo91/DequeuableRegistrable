@@ -26,7 +26,7 @@ DequeuableRegistrable is available through [CocoaPods](http://cocoapods.org). To
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "DequeuableRegistrable"
+pod "DequeuableRegistrable", :git => "https://github.com/fmo91/DequeuableRegistrable/"
 ```
 
 ## At a glance
