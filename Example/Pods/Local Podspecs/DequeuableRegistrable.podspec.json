@@ -1,9 +1,9 @@
 {
   "name": "DequeuableRegistrable",
   "version": "0.1.0",
-  "summary": "A short description of DequeuableRegistrable.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/DequeuableRegistrable",
+  "summary": "Safe and convenient registering and dequeuing of UITableViewCells and UICollectionViewCells without Strings.",
+  "description": "DequeuableRegistrable is a couple of protocol extensions that allows registering and dequeuing UITableViewCells and UICollectionViewCells without using Strings and without doing any unsafe type casting.",
+  "homepage": "https://github.com/fmo91/DequeuableRegistrable",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "Fernando Ortiz": "ortizfernandomartin@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/DequeuableRegistrable.git",
+    "git": "https://github.com/fmo91/DequeuableRegistrable.git",
     "tag": "0.1.0"
   },
   "platforms": {

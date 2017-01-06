@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		189B42C11E1F21C100044DD9 /* Dequeuable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B42BE1E1F21C100044DD9 /* Dequeuable.swift */; };
-		189B42C21E1F21C100044DD9 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B42BF1E1F21C100044DD9 /* Identifiable.swift */; };
-		189B42C31E1F21C100044DD9 /* Registrable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B42C01E1F21C100044DD9 /* Registrable.swift */; };
+		197B2DDEAB4AC76C604BEEED080F5B76 /* Dequeuable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D1716E0A323E51412D583DDF0AD7 /* Dequeuable.swift */; };
+		242D2BCAA7CF995DA814FE3C73484686 /* DequeuableRegistrable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A886C9BA7EFD3C499074EB2BACAA026 /* DequeuableRegistrable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31F92A4FC3AB3EEDBFE345F777FCB810 /* DequeuableRegistrable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF40587B3D9EB598A44E0CFC14C2A62 /* DequeuableRegistrable-dummy.m */; };
 		3BE2CDECCE19045445A828F841F7D21B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		475F9653913237268438B77ED4719497 /* DequeuableRegistrable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF40587B3D9EB598A44E0CFC14C2A62 /* DequeuableRegistrable-dummy.m */; };
 		5A30B33177398A91554A3E01A3B31B96 /* Pods-DequeuableRegistrable_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED14756829B8E78F19F4DD4CC3C496B /* Pods-DequeuableRegistrable_Example-dummy.m */; };
 		694F79C50F721E711CF3B483F0B34204 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		7B78BC7F469AE93833305BC3490CF11F /* DequeuableRegistrable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A886C9BA7EFD3C499074EB2BACAA026 /* DequeuableRegistrable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C63BCDDBBE80421E44506909EE000C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		805E848FD765792F85DBA636882CADF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		8A11703CB46D9A05178E587E66705992 /* Registrable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBB52B354A02A054782AE75F2B2FF6B /* Registrable.swift */; };
 		9784557A8CA2A59C43D7A8DE5AD66D67 /* Pods-DequeuableRegistrable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E9FBD700EF359913215CF3BA5296AD3 /* Pods-DequeuableRegistrable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E453014101061FD46DF4972EB0E6BFB /* Pods-DequeuableRegistrable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AEB7ADA25E958134E4C86D733CDF64 /* Pods-DequeuableRegistrable_Tests-dummy.m */; };
 		F3C9A2C918D7C3507D7BBC489B8A75E6 /* Pods-DequeuableRegistrable_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 623B0C0A0D7738FB87D88152538CE059 /* Pods-DequeuableRegistrable_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7BF85CC9670990172E0A61B381A7CE1 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74C3F7FB4C9C8E30A07CE2063D7C2CE /* Identifiable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,7 +26,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 714F88FA2BB8CB97799E3B887BC09922;
+			remoteGlobalIDString = 5F9463698B73FCF4CE481EA724B5B069;
 			remoteInfo = DequeuableRegistrable;
 		};
 /* End PBXContainerItemProxy section */
@@ -34,33 +34,33 @@
 /* Begin PBXFileReference section */
 		002B44CF334366658051DE30C104C99B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02478F0A33B0E59335DBCBD6A7DC7FCC /* Pods-DequeuableRegistrable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DequeuableRegistrable_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		05CA5267940020C0A30EF27943A9588B /* DequeuableRegistrable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DequeuableRegistrable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05CA5267940020C0A30EF27943A9588B /* DequeuableRegistrable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DequeuableRegistrable.framework; path = DequeuableRegistrable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11347F97C3C8EDE66C57C7836C76574B /* Pods-DequeuableRegistrable_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DequeuableRegistrable_Tests-resources.sh"; sourceTree = "<group>"; };
-		189B42BE1E1F21C100044DD9 /* Dequeuable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dequeuable.swift; sourceTree = "<group>"; };
-		189B42BF1E1F21C100044DD9 /* Identifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
-		189B42C01E1F21C100044DD9 /* Registrable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Registrable.swift; sourceTree = "<group>"; };
-		19E809BD79EA862EE8E3557329BA858E /* Pods-DequeuableRegistrable_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DequeuableRegistrable_Example.modulemap"; sourceTree = "<group>"; };
+		19E809BD79EA862EE8E3557329BA858E /* Pods-DequeuableRegistrable_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DequeuableRegistrable_Example.modulemap"; sourceTree = "<group>"; };
 		1A886C9BA7EFD3C499074EB2BACAA026 /* DequeuableRegistrable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DequeuableRegistrable-umbrella.h"; sourceTree = "<group>"; };
 		27DC15DDE8C797B9B88695D66F16387E /* Pods-DequeuableRegistrable_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DequeuableRegistrable_Example-resources.sh"; sourceTree = "<group>"; };
-		3D1A4CBEE7251BCB8636126C7DC85EDD /* Pods_DequeuableRegistrable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DequeuableRegistrable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1A4CBEE7251BCB8636126C7DC85EDD /* Pods_DequeuableRegistrable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DequeuableRegistrable_Tests.framework; path = "Pods-DequeuableRegistrable_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E30EDDAC6E604762F8D2BF733FD08B1 /* Pods-DequeuableRegistrable_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DequeuableRegistrable_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		40987AA07555945BE02BA74F95A7D15D /* DequeuableRegistrable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DequeuableRegistrable.xcconfig; sourceTree = "<group>"; };
 		5E9FBD700EF359913215CF3BA5296AD3 /* Pods-DequeuableRegistrable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DequeuableRegistrable_Tests-umbrella.h"; sourceTree = "<group>"; };
 		623B0C0A0D7738FB87D88152538CE059 /* Pods-DequeuableRegistrable_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DequeuableRegistrable_Example-umbrella.h"; sourceTree = "<group>"; };
 		67AEB7ADA25E958134E4C86D733CDF64 /* Pods-DequeuableRegistrable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DequeuableRegistrable_Tests-dummy.m"; sourceTree = "<group>"; };
 		6971FB02DB2E018E7F21B637901F12DE /* Pods-DequeuableRegistrable_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DequeuableRegistrable_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		703B530D04B15FE3FCE406BF3393C5ED /* Pods_DequeuableRegistrable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DequeuableRegistrable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		703B530D04B15FE3FCE406BF3393C5ED /* Pods_DequeuableRegistrable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DequeuableRegistrable_Example.framework; path = "Pods-DequeuableRegistrable_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		734C61478EE9E2EC3D6CB12C94862B2F /* Pods-DequeuableRegistrable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DequeuableRegistrable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7DE362AEA1544F562E9F170B7EF043BF /* Pods-DequeuableRegistrable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DequeuableRegistrable_Tests.modulemap"; sourceTree = "<group>"; };
+		7DE362AEA1544F562E9F170B7EF043BF /* Pods-DequeuableRegistrable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DequeuableRegistrable_Tests.modulemap"; sourceTree = "<group>"; };
 		85872CA6F7BAA14C3374170D77CF3123 /* Pods-DequeuableRegistrable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DequeuableRegistrable_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8A4828A2CC5A2FB8F4399F0372329E98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BF40587B3D9EB598A44E0CFC14C2A62 /* DequeuableRegistrable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DequeuableRegistrable-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A90B08FFAF7A3FD382E26AC2FF17FDD /* Pods-DequeuableRegistrable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DequeuableRegistrable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9DE9712004F4F4B82D9C48A0C58B89DD /* DequeuableRegistrable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DequeuableRegistrable-prefix.pch"; sourceTree = "<group>"; };
 		9ED14756829B8E78F19F4DD4CC3C496B /* Pods-DequeuableRegistrable_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DequeuableRegistrable_Example-dummy.m"; sourceTree = "<group>"; };
 		A6EEAED07EB9876D9C8C69D782E578C9 /* Pods-DequeuableRegistrable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DequeuableRegistrable_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AA41BA3F4806A562EDA6F1209EFC0E9C /* DequeuableRegistrable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DequeuableRegistrable.modulemap; sourceTree = "<group>"; };
+		A7A3D1716E0A323E51412D583DDF0AD7 /* Dequeuable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Dequeuable.swift; sourceTree = "<group>"; };
+		AA41BA3F4806A562EDA6F1209EFC0E9C /* DequeuableRegistrable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DequeuableRegistrable.modulemap; sourceTree = "<group>"; };
+		B74C3F7FB4C9C8E30A07CE2063D7C2CE /* Identifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
+		BCBB52B354A02A054782AE75F2B2FF6B /* Registrable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Registrable.swift; sourceTree = "<group>"; };
 		BD856FAE67487EDC296F2A9403744F7E /* Pods-DequeuableRegistrable_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DequeuableRegistrable_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C4DC7C4B7F2F0AB76F6A0542253C45E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6A604C20540292F59DD466B84099F61 /* Pods-DequeuableRegistrable_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DequeuableRegistrable_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -77,14 +77,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1A1CDC1FFC8F556AA95323B4B8233B8E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8C63BCDDBBE80421E44506909EE000C5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		30EED81032EEE80F4775CD4E0012EF4B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,9 +85,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E96FAE864B319BAC953231DCD0E7117D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805E848FD765792F85DBA636882CADF6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		039608CA6873DF544BE2068AD15D83CB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A7A3D1716E0A323E51412D583DDF0AD7 /* Dequeuable.swift */,
+				B74C3F7FB4C9C8E30A07CE2063D7C2CE /* Identifiable.swift */,
+				BCBB52B354A02A054782AE75F2B2FF6B /* Registrable.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0C04A5A49CA51EA5CBB3BF70874D70FC /* DequeuableRegistrable */ = {
+			isa = PBXGroup;
+			children = (
+				039608CA6873DF544BE2068AD15D83CB /* Classes */,
+			);
+			name = DequeuableRegistrable;
+			path = DequeuableRegistrable;
+			sourceTree = "<group>";
+		};
 		0C4008658EBDDB9594D5F6EEA543EFD4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,14 +139,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2DF9B31506C23A54AD3F229353C09F96 /* DequeuableRegistrable */ = {
-			isa = PBXGroup;
-			children = (
-				B58D827DDA214165F4CA1A972E799173 /* Classes */,
-			);
-			path = DequeuableRegistrable;
-			sourceTree = "<group>";
-		};
 		42E0711EDEDB016735F6A625B026B681 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,7 +150,7 @@
 		6CBB8B932CCA99708D1C8A57C282FEEB /* DequeuableRegistrable */ = {
 			isa = PBXGroup;
 			children = (
-				2DF9B31506C23A54AD3F229353C09F96 /* DequeuableRegistrable */,
+				0C04A5A49CA51EA5CBB3BF70874D70FC /* DequeuableRegistrable */,
 				0C4008658EBDDB9594D5F6EEA543EFD4 /* Support Files */,
 			);
 			name = DequeuableRegistrable;
@@ -210,16 +222,6 @@
 			path = "Target Support Files/Pods-DequeuableRegistrable_Example";
 			sourceTree = "<group>";
 		};
-		B58D827DDA214165F4CA1A972E799173 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				189B42BE1E1F21C100044DD9 /* Dequeuable.swift */,
-				189B42BF1E1F21C100044DD9 /* Identifiable.swift */,
-				189B42C01E1F21C100044DD9 /* Registrable.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,14 +241,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		914019CFE3E9073FBB1354BA4EF097F7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7B78BC7F469AE93833305BC3490CF11F /* DequeuableRegistrable-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CE2FC3246552D687B27E48FFD8575606 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -255,16 +249,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F3E671A5AC6B5F9E608462A12423AEF5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242D2BCAA7CF995DA814FE3C73484686 /* DequeuableRegistrable-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		714F88FA2BB8CB97799E3B887BC09922 /* DequeuableRegistrable */ = {
+		5F9463698B73FCF4CE481EA724B5B069 /* DequeuableRegistrable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F1C38BD5DB66125AECDCF9DD1A267F3 /* Build configuration list for PBXNativeTarget "DequeuableRegistrable" */;
+			buildConfigurationList = 56E5C0A9A07260A84CE1EBA07AB08D10 /* Build configuration list for PBXNativeTarget "DequeuableRegistrable" */;
 			buildPhases = (
-				20676286E74DB0680A1092AE04BE3053 /* Sources */,
-				1A1CDC1FFC8F556AA95323B4B8233B8E /* Frameworks */,
-				914019CFE3E9073FBB1354BA4EF097F7 /* Headers */,
+				69DF73D04790A7CF8892B0D82750102E /* Sources */,
+				E96FAE864B319BAC953231DCD0E7117D /* Frameworks */,
+				F3E671A5AC6B5F9E608462A12423AEF5 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -318,14 +320,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					714F88FA2BB8CB97799E3B887BC09922 = {
-						LastSwiftMigration = 0810;
-					};
-					7E3235A910B7D82E047C5E30B4FA54BD = {
-						LastSwiftMigration = 0810;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -339,7 +333,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				714F88FA2BB8CB97799E3B887BC09922 /* DequeuableRegistrable */,
+				5F9463698B73FCF4CE481EA724B5B069 /* DequeuableRegistrable */,
 				7E3235A910B7D82E047C5E30B4FA54BD /* Pods-DequeuableRegistrable_Example */,
 				A787B15941559C851125ED390A218C63 /* Pods-DequeuableRegistrable_Tests */,
 			);
@@ -347,22 +341,22 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		20676286E74DB0680A1092AE04BE3053 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				189B42C31E1F21C100044DD9 /* Registrable.swift in Sources */,
-				189B42C11E1F21C100044DD9 /* Dequeuable.swift in Sources */,
-				189B42C21E1F21C100044DD9 /* Identifiable.swift in Sources */,
-				475F9653913237268438B77ED4719497 /* DequeuableRegistrable-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		26839CB9D177AEEE41DC96EDBFFF4F7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9E453014101061FD46DF4972EB0E6BFB /* Pods-DequeuableRegistrable_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DF73D04790A7CF8892B0D82750102E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197B2DDEAB4AC76C604BEEED080F5B76 /* Dequeuable.swift in Sources */,
+				31F92A4FC3AB3EEDBFE345F777FCB810 /* DequeuableRegistrable-dummy.m in Sources */,
+				F7BF85CC9670990172E0A61B381A7CE1 /* Identifiable.swift in Sources */,
+				8A11703CB46D9A05178E587E66705992 /* Registrable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,7 +374,7 @@
 		8F7F55A67D7782847CF2A9BD271D9EE8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DequeuableRegistrable;
-			target = 714F88FA2BB8CB97799E3B887BC09922 /* DequeuableRegistrable */;
+			target = 5F9463698B73FCF4CE481EA724B5B069 /* DequeuableRegistrable */;
 			targetProxy = DDB63E64A14D31826CA6013671B00EF3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -416,18 +410,16 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		46EBE6973DE9C5F1616F9E0CF395D37D /* Release */ = {
+		61F87AD0D33AC1D2092E76E9DF4203FA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 40987AA07555945BE02BA74F95A7D15D /* DequeuableRegistrable.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -456,11 +448,10 @@
 			};
 			name = Release;
 		};
-		88AD1EE3FC7520B4164335DD96383587 /* Debug */ = {
+		7F67EC8B78231ABBB82FEC5D1D73DCD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 40987AA07555945BE02BA74F95A7D15D /* DequeuableRegistrable.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -559,7 +550,6 @@
 				PRODUCT_NAME = Pods_DequeuableRegistrable_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -710,11 +700,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F1C38BD5DB66125AECDCF9DD1A267F3 /* Build configuration list for PBXNativeTarget "DequeuableRegistrable" */ = {
+		56E5C0A9A07260A84CE1EBA07AB08D10 /* Build configuration list for PBXNativeTarget "DequeuableRegistrable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				88AD1EE3FC7520B4164335DD96383587 /* Debug */,
-				46EBE6973DE9C5F1616F9E0CF395D37D /* Release */,
+				7F67EC8B78231ABBB82FEC5D1D73DCD0 /* Debug */,
+				61F87AD0D33AC1D2092E76E9DF4203FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

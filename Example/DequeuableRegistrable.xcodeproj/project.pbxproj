@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0C37D9D8DDDCE05337924C96 /* Pods_DequeuableRegistrable_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF872219357D6F0667657BD /* Pods_DequeuableRegistrable_Tests.framework */; };
+		189B42C71E1F22E400044DD9 /* SampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B42C51E1F22E400044DD9 /* SampleTableViewCell.swift */; };
+		189B42C81E1F22E400044DD9 /* SampleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189B42C61E1F22E400044DD9 /* SampleTableViewCell.xib */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		189B42C51E1F22E400044DD9 /* SampleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleTableViewCell.swift; sourceTree = "<group>"; };
+		189B42C61E1F22E400044DD9 /* SampleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleTableViewCell.xib; sourceTree = "<group>"; };
 		2F6ACDB4E7EA3F087054DF00 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* DequeuableRegistrable_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DequeuableRegistrable_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 		607FACD21AFB9204008FA782 /* Example for DequeuableRegistrable */ = {
 			isa = PBXGroup;
 			children = (
+				189B42C51E1F22E400044DD9 /* SampleTableViewCell.swift */,
+				189B42C61E1F22E400044DD9 /* SampleTableViewCell.xib */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -249,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				189B42C81E1F22E400044DD9 /* SampleTableViewCell.xib in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -362,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				189B42C71E1F22E400044DD9 /* SampleTableViewCell.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,16 +9,35 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var tableView: UITableView!
+    
+    let names = ["Fernando", "Martin", "Ortiz"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        SampleTableViewCell.register(in: tableView)
+        tableView.delegate = self
+        tableView.dataSource = self
     }
 
 }
 
+// MARK: - UITableViewDelegate, UITableViewDataSource -
+extension ViewController: UITableViewDelegate, UITableViewDataSource {
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return names.count
+    }
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = SampleTableViewCell.dequeue(from: tableView)
+        cell.sampleTitleLabel.text = names[indexPath.row]
+        return cell
+    }
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 44.0
+    }
+}
