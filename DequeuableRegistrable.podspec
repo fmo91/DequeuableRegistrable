@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DequeuableRegistrable'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'Safe and convenient registering and dequeuing of UITableViewCells and UICollectionViewCells without Strings.'
 
   s.description      = <<-DESC
