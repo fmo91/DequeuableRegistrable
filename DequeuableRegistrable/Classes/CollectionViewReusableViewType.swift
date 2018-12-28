@@ -13,8 +13,8 @@ public enum CollectionViewReusableViewType {
     
     internal var value: String {
         switch self {
-        case .header: return UICollectionElementKindSectionHeader
-        case .footer: return UICollectionElementKindSectionFooter
+        case .header: return UICollectionView.elementKindSectionHeader
+        case .footer: return UICollectionView.elementKindSectionFooter
         }
     }
 }
