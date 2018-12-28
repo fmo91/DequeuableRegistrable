@@ -17,6 +17,7 @@
 		8A11703CB46D9A05178E587E66705992 /* Registrable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBB52B354A02A054782AE75F2B2FF6B /* Registrable.swift */; };
 		9784557A8CA2A59C43D7A8DE5AD66D67 /* Pods-DequeuableRegistrable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E9FBD700EF359913215CF3BA5296AD3 /* Pods-DequeuableRegistrable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E453014101061FD46DF4972EB0E6BFB /* Pods-DequeuableRegistrable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AEB7ADA25E958134E4C86D733CDF64 /* Pods-DequeuableRegistrable_Tests-dummy.m */; };
+		AAFBAC0721D69282000837F3 /* DequeuableRegistrable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFBAC0621D69282000837F3 /* DequeuableRegistrable.swift */; };
 		ED811A9E1E20223D00E92D03 /* CollectionViewReusableViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED811A9D1E20223D00E92D03 /* CollectionViewReusableViewType.swift */; };
 		F3C9A2C918D7C3507D7BBC489B8A75E6 /* Pods-DequeuableRegistrable_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 623B0C0A0D7738FB87D88152538CE059 /* Pods-DequeuableRegistrable_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7BF85CC9670990172E0A61B381A7CE1 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74C3F7FB4C9C8E30A07CE2063D7C2CE /* Identifiable.swift */; };
@@ -60,6 +61,7 @@
 		A6EEAED07EB9876D9C8C69D782E578C9 /* Pods-DequeuableRegistrable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DequeuableRegistrable_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A7A3D1716E0A323E51412D583DDF0AD7 /* Dequeuable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Dequeuable.swift; sourceTree = "<group>"; };
 		AA41BA3F4806A562EDA6F1209EFC0E9C /* DequeuableRegistrable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DequeuableRegistrable.modulemap; sourceTree = "<group>"; };
+		AAFBAC0621D69282000837F3 /* DequeuableRegistrable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DequeuableRegistrable.swift; sourceTree = "<group>"; };
 		B74C3F7FB4C9C8E30A07CE2063D7C2CE /* Identifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
 		BCBB52B354A02A054782AE75F2B2FF6B /* Registrable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Registrable.swift; sourceTree = "<group>"; };
 		BD856FAE67487EDC296F2A9403744F7E /* Pods-DequeuableRegistrable_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DequeuableRegistrable_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		039608CA6873DF544BE2068AD15D83CB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				AAFBAC0621D69282000837F3 /* DequeuableRegistrable.swift */,
 				A7A3D1716E0A323E51412D583DDF0AD7 /* Dequeuable.swift */,
 				B74C3F7FB4C9C8E30A07CE2063D7C2CE /* Identifiable.swift */,
 				BCBB52B354A02A054782AE75F2B2FF6B /* Registrable.swift */,
@@ -364,6 +367,7 @@
 				F7BF85CC9670990172E0A61B381A7CE1 /* Identifiable.swift in Sources */,
 				ED811A9E1E20223D00E92D03 /* CollectionViewReusableViewType.swift in Sources */,
 				8A11703CB46D9A05178E587E66705992 /* Registrable.swift in Sources */,
+				AAFBAC0721D69282000837F3 /* DequeuableRegistrable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
