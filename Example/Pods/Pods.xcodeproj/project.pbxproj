@@ -17,6 +17,7 @@
 		8A11703CB46D9A05178E587E66705992 /* Registrable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBB52B354A02A054782AE75F2B2FF6B /* Registrable.swift */; };
 		9784557A8CA2A59C43D7A8DE5AD66D67 /* Pods-DequeuableRegistrable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E9FBD700EF359913215CF3BA5296AD3 /* Pods-DequeuableRegistrable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E453014101061FD46DF4972EB0E6BFB /* Pods-DequeuableRegistrable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AEB7ADA25E958134E4C86D733CDF64 /* Pods-DequeuableRegistrable_Tests-dummy.m */; };
+		AAFBAC0721D69282000837F3 /* DequeuableRegistrable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFBAC0621D69282000837F3 /* DequeuableRegistrable.swift */; };
 		ED811A9E1E20223D00E92D03 /* CollectionViewReusableViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED811A9D1E20223D00E92D03 /* CollectionViewReusableViewType.swift */; };
 		F3C9A2C918D7C3507D7BBC489B8A75E6 /* Pods-DequeuableRegistrable_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 623B0C0A0D7738FB87D88152538CE059 /* Pods-DequeuableRegistrable_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7BF85CC9670990172E0A61B381A7CE1 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74C3F7FB4C9C8E30A07CE2063D7C2CE /* Identifiable.swift */; };
@@ -60,6 +61,7 @@
 		A6EEAED07EB9876D9C8C69D782E578C9 /* Pods-DequeuableRegistrable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DequeuableRegistrable_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A7A3D1716E0A323E51412D583DDF0AD7 /* Dequeuable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Dequeuable.swift; sourceTree = "<group>"; };
 		AA41BA3F4806A562EDA6F1209EFC0E9C /* DequeuableRegistrable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DequeuableRegistrable.modulemap; sourceTree = "<group>"; };
+		AAFBAC0621D69282000837F3 /* DequeuableRegistrable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DequeuableRegistrable.swift; sourceTree = "<group>"; };
 		B74C3F7FB4C9C8E30A07CE2063D7C2CE /* Identifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
 		BCBB52B354A02A054782AE75F2B2FF6B /* Registrable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Registrable.swift; sourceTree = "<group>"; };
 		BD856FAE67487EDC296F2A9403744F7E /* Pods-DequeuableRegistrable_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DequeuableRegistrable_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		039608CA6873DF544BE2068AD15D83CB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				AAFBAC0621D69282000837F3 /* DequeuableRegistrable.swift */,
 				A7A3D1716E0A323E51412D583DDF0AD7 /* Dequeuable.swift */,
 				B74C3F7FB4C9C8E30A07CE2063D7C2CE /* Identifiable.swift */,
 				BCBB52B354A02A054782AE75F2B2FF6B /* Registrable.swift */,
@@ -320,7 +323,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					5F9463698B73FCF4CE481EA724B5B069 = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -359,6 +367,7 @@
 				F7BF85CC9670990172E0A61B381A7CE1 /* Identifiable.swift in Sources */,
 				ED811A9E1E20223D00E92D03 /* CollectionViewReusableViewType.swift in Sources */,
 				8A11703CB46D9A05178E587E66705992 /* Registrable.swift in Sources */,
+				AAFBAC0721D69282000837F3 /* DequeuableRegistrable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,7 +452,8 @@
 				PRODUCT_NAME = DequeuableRegistrable;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -476,7 +486,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -492,19 +503,31 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -518,6 +541,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -567,20 +591,32 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",

@@ -9,7 +9,7 @@
 import UIKit
 import DequeuableRegistrable
 
-class SampleTableViewCell: UITableViewCell, Dequeuable, Registrable {
+class SampleTableViewCell: UITableViewCell, DequeuableRegistrable {
 
     // MARK: - Views -
     @IBOutlet weak var sampleTitleLabel: UILabel!
